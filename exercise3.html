@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+  <title></title>
+</head>
+<body>
+
+  <select name="greeting" ng-model="greeting" ng-init="greeting='Welcome'">
+    <option>Hello</option>
+    <option>Greetings</option>
+    <option>Salutations</option>
+    <option>Live long and prosper</option>
+  </select>
+  <input type="text" ng-model="fname">
+  <input type="text" ng-model="lname">
+
+  <p>{{ greeting }}, {{ fname }} {{ lname }}</p>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+</body>
+</html>
